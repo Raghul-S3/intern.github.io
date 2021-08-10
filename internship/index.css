@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(153, 226, 255,0.5);
+    background-color: rgb(153, 226, 255,0.3);
   }
   
   .topnav a {
@@ -28,7 +28,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-    background-color: rgb(153, 226, 255,0.7);
+    background-color: rgb(153, 226, 255,0.3);
     justify-content: center;
   }
   
@@ -370,8 +370,8 @@ body {
     padding-bottom: 30px;
 }
   @media screen and (max-width: 600px) {
-    .topnav { display: block; ;}
-    .topnav a {display: none;  }
+    .topnav { display: block; background-color: rgb(153, 226, 255,0.7);}
+    .topnav a {display: none; background-color: rgb(153, 226, 255,0.7); }
     .topnav a.icon {
       float: right;
       display: block; 
