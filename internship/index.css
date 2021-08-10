@@ -368,7 +368,7 @@ body {
 .loc {
     width: 50%;
     padding-bottom: 30px;
-    overflow: auto;
+    overflow: hidden;
 }
   @media screen and (max-width: 600px) {
     .topnav { display: block; background-color: rgb(153, 226, 255,0.7);}
