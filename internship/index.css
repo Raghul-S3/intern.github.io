@@ -16,7 +16,7 @@ body {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(153, 226, 255,0.2);
+    background-color: rgb(153, 226, 255,0.5);
   }
   
   .topnav a {
